@@ -477,10 +477,6 @@ body{
 
 #dashboard-canvas {
     width: 100%;
-    height: 100%;
-}
-
-iframe {
-    margin-bottom: -50px; 
-    height: calc(100% + 40px); /* Compensate for negative margin */
+    height: 97%;
+    overflow: hidden;
 }
